@@ -19,7 +19,7 @@ export default function RootLayout({
   console.log('params at rootLayout', params);
 
   return (
-    <html lang={params.lang ?? 'en'}>
+    <html lang={params.lang ?? 'en-US'}>
       <body className={inter.className}>{children}</body>
     </html>
   );

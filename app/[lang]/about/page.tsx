@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { getDictionary } from '@/dictionaries/dictionary';
+import { getDictionary } from '@/i18n/dictionaries';
 
-export default async function About({ params }: { params: { lang: 'en' | 'zh' } }) {
+export default async function About({ params }: { params: { lang: 'en-US' | 'zh-CN' } }) {
   const lang = await getDictionary(params.lang);
 
   console.log('params for About', lang);
