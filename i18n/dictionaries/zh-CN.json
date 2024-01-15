@@ -3,5 +3,6 @@
     "name": "名字",
     "email": "邮箱",
     "city": "城市"
-  }
+  },
+  "greeting": "你好，{name}!"
 }
